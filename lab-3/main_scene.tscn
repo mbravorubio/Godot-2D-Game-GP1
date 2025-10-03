@@ -1,8 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://dykcsdbqj7oek"]
+[gd_scene load_steps=3 format=3 uid="uid://dykcsdbqj7oek"]
 
 [ext_resource type="PackedScene" uid="uid://rpc2lwawo1ri" path="res://nailah_scene.tscn" id="1_0f027"]
+[ext_resource type="PackedScene" uid="uid://dpwurgyx2330s" path="res://Mauricio_scene.tscn.tscn" id="2_2c62f"]
 
 [node name="Node2D" type="Node2D"]
 
-[node name="Icon" parent="." instance=ExtResource("1_0f027")]
-position = Vector2(164, 319)
+[node name="Nailah\'s Scene" parent="." instance=ExtResource("1_0f027")]
+position = Vector2(295, 155)
+
+[node name="MauricioScene_tscn" parent="." instance=ExtResource("2_2c62f")]
