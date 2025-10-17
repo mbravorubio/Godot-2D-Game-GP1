@@ -1,3 +1,10 @@
 [gd_scene format=3 uid="uid://b8ohxdipd53hp"]
 
-[node name="Player" type="Node2D"]
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(604, 343)
