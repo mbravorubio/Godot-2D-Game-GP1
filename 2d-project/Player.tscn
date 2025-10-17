@@ -129,16 +129,15 @@ animations = [{
 }]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D"]
-position = Vector2(376.5, 333.5)
+position = Vector2(379.99997, 347.00003)
 scale = Vector2(5.46875, 6.265625)
 sprite_frames = SubResource("SpriteFrames_cgsek")
 animation = &"walk"
-frame_progress = 0.42343214
+frame_progress = 0.65023285
 
-[node name="Player" type="Node2D" parent="."]
-position = Vector2(23, -38)
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(36.11429, -3.5910301)
 
-[node name="Camera2D" type="Camera2D" parent="Player"]
-position = Vector2(13.1142845, 34.408974)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Camera2D"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Player/Camera2D"]
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
